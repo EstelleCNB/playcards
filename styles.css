@@ -23,26 +23,25 @@
    line-height: 160px;
    text-align: center;
    font-size: 80px;
-
-   box-shadow: 3px 3px 0px
+   border-radius: 5px;
+   box-shadow: 3px 3px 5px
    black;
 
 }      
 
 .card-top {
    position: absolute;
-   left: 150px;
-   top: 100px;
-
-   z-index: 2;
+   left: 240px;
+   top: 120px;
+   z-index: 1;
 
 }
 
 .card-bottom {
    position: absolute;
-   left: 240px;
-   top: 120px;
-   z-index: 1;
+   left: 150px;
+   top: 100px;
+   z-index: 2;
 
 }
 
